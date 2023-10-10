@@ -30,4 +30,4 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 ```
 <hr>
-#### Jonas seberaclear
+#### Jonas sebera
