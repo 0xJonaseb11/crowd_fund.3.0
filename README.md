@@ -1,7 +1,6 @@
 ##### Author: JONAS SEBERA
 <hr>
-
-#### THIS IS A CROWDFUNDING APP THAT ULTIMATELY SHOWS THE GREAT EAGER TO MASTER WEB3.0 AND 'LOT ABOUT SMART CONTRACTS. IT SHOWS THE FULL FUNCTIONS FOR SUPPORTING DIFFERENT CAMPAIGNS AND PROJECTS - WITH ETH .
+#### This is a Crowdfunding app that ultimately shows the great eager to master web3.0  and a lot about smart contracts.. It shows the fll functions for supporting different campaigns and projects - With ETH..
 
 ### Need to install these dependencies to follow along with its full functionalities ::
 

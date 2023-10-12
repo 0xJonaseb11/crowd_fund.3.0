@@ -1,8 +1,9 @@
 //SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.19;
-pragma experimental ABIEncoderV2;
 
 contract CrowdFunding {
+
+    error CrowdFunding__TransferFailed();
     struct Campaign {
         address owner;
         string title;
@@ -59,7 +60,10 @@ contract CrowdFunding {
 
         if (sent) {
             campaign.amountCollected = campaign.amountCollected + amount;
+        } else {
+            revert CrowdFunding__TransferFailed();
         }
+
     }
 
     function getDonators(
