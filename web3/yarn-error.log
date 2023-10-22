@@ -1,0 +1,42 @@
+Arguments: 
+  /snap/node/7823/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /home/jaz/.npm/_npx/86fd6f984ad48a35/node_modules/.bin:/home/jaz/Documents/ACADEMICS/WEB3.0/CROWDFUNDING-APP/node_modules/.bin:/home/jaz/Documents/ACADEMICS/WEB3.0/node_modules/.bin:/home/jaz/Documents/ACADEMICS/node_modules/.bin:/home/jaz/Documents/node_modules/.bin:/home/jaz/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jaz/.foundry/bin:/home/jaz/.foundry/bin:/home/jaz/.foundry/bin:/home/jaz/.foundry/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.18.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+
+npm manifest: 
+  {
+    "name": "hardhat-javascript-starter",
+    "scripts": {
+      "build": "npx thirdweb@latest detect",
+      "deploy": "npx thirdweb@latest deploy",
+      "release": "npx thirdweb@latest release"
+    },
+    "devDependencies": {
+      "@matterlabs/hardhat-zksync-solc": "^0.3.17",
+      "hardhat": "^2.13.0"
+    },
+    "dependencies": {
+      "@thirdweb-dev/contracts": "^3.8.0",
+      "zksync-web3": "^0.14.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

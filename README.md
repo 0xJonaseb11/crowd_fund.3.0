@@ -12,7 +12,7 @@
 npx thirdweb@latest create --contract
 npm install dotenv
 ```
-Try running these task to deploy your contract ::
+Try running this task to deploy your contract ::
  ```
  npm run deploy
  ```
