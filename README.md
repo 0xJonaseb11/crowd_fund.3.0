@@ -1,7 +1,12 @@
-##### Author: JONAS SEBERA
+##### Author: @Jonas-sebera
 
 <hr>
+
+## About
+
 #### This is a Crowdfunding app that ultimately shows the great eager to master web3.0  and a lot about smart contracts.. It shows the fll functions for supporting different campaigns and projects - With ETH..
+
+## Getting started
 
 ### Need to install these dependencies to follow along with its full functionalities ::
 
@@ -9,7 +14,7 @@
 
 #### Blockend
 ```
-npx thirdweb@latest create --contract
+npx thirdweb@latest create contract
 npm install dotenv
 ```
 Try running this task to deploy your contract ::
@@ -22,7 +27,7 @@ When the deploy is done, you'll get a url in the terminal which you'll then clic
 
 #### Frontend
 ```
-npx thirdweb create --app
+npx thirdweb create app
 npm install react-router-dom
 npm run dev
 
@@ -31,4 +36,4 @@ npx tailwindcss init -p
 ```
 <hr>
 
-#### Jonas sebera
+#### @Jonas-sebera
