@@ -12,7 +12,7 @@ const Icon = ({ styles, name, imgUrl, isActive, disabled, handleClick }) => (
       <img src={imgUrl} alt="fund_logo" className={`w-1/2 h-1/2 ${isActive !== name && 'grayscale'}`} />
     )}
   </div>
-)
+);
 
 const Sidebar = () => {
   const navigate = useNavigate();
