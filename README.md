@@ -4,7 +4,7 @@
 
 ## About
 
-#### This is a Crowdfunding app that ultimately shows the great eager to master web3.0  and a lot about smart contracts.. It shows the fll functions for supporting different campaigns and projects - With ETH..
+#### Be able to make a campaign of a project , give it chance to get the funds from funders, view the profile and get the funding details.Get the chance to use a super audited contract for crowdfunding and get chance to use a super friendly UI and very secure web3.0 app right with this one. 
 
 ## Getting started
 
