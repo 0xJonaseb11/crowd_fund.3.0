@@ -2,6 +2,11 @@
 pragma solidity ^0.8.19;
 
 contract Crowdfunding {
+
+
+    //custim  error handling
+    error Crowdfunding__NotYetTime();
+    error Crowdfunding__SendFailed();
     struct Campaign {
         address owner;
         string title;
@@ -30,6 +35,13 @@ contract Crowdfunding {
 
             require(campaign.deadline < block.timestamp, "The deadline should be in the future");
 
+            // The best way to handle error 
+            /**
+            *@dev so the above is ignored */
+            if (!(campaign.deadline < block.timestamp)) {
+                revert Crowdfunding__NotYetTime();
+            }
+
             // if okay
             campaign.owner = _owner;
             campaign.title = _title;
@@ -56,6 +68,8 @@ contract Crowdfunding {
 
             if (sent) {
                 campaign.amountCollected = campaign.amountCollected + amount;
+            } else {
+                revert Crowdfunding__SendFailed();
             }
         }
 
