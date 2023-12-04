@@ -71,7 +71,7 @@ const Navbar = () => {
                       <img 
                       src={link.imgUrl} 
                       alt={link.name} />
-                      <p className={`ml-[20px] font-epilogue font-semibold text-[14px] ${isActive}`}>{link.name}</p>
+                      <p className={`ml-[20px] font-epilogue font-semibold text-[14px] ${isActive == link.name ? 'text-[#1dc071]' : 'text-[#808191]'}`}>{link.name}</p>
 
                     </li>
                   ))}
