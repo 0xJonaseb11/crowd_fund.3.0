@@ -1,7 +1,7 @@
 import React, {useContext, useState} from 'react';
 import { Link, useNavigate } from "react-router-dom";
 
-import { useStateContext } from "../context";
+// import { useStateContext } from "../context";
 import {CustomButton } from "./";
 import {logo, menu, search, thirdweb } from "../assets";
 import { navlinks } from '../constants';
@@ -29,9 +29,8 @@ const Navbar = () => {
             title={address ? 'Create a campaign' : "Connect Wallet"}
             styles={address ? "bg-[#1dc071]" : 'bg-[#8c6dfd]'}
             handleClick={() => {
-              if (address) {
-
-              }
+              if (address) navigate('Create-campaign') 
+              else 'connect()'
             }}
             />
             </div>
