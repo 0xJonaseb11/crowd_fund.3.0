@@ -1,8 +1,10 @@
 import React from 'react'
 
-const CountBox = ({}) => {
+const CountBox = ({title, value}) => {
   return (
-    <div>CountBox</div>
+    <div className='flex flex-col items-center w-['>
+
+    </div>
   )
 }
 
