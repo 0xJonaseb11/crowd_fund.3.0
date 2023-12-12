@@ -50,12 +50,7 @@ const Navbar = () => {
                 <img src={thirdweb} alt="user" className='w-[60%] h-[60%] object-contain'/>
               </div>
               <img 
-              src={menu} 
-              alt="menu" 
-              className='w-[34px] h-[34px] object-contain cursor-pointer'
-              onClick={() => setToggleDrawer(!toggleDrawer)}
-              />
-
+             
               <div className={`absolute top-[60px] right-0 left-0 bg-[#1c1c24] z-10 shadow-secondary py-4 ${!toggleDrawer} ? '-translate-y-[100vh]' : 'translate-y-0 transition-all duration-700`}>
                 <ul className='mg-4'>
                   {navlinks.map((link) => (
